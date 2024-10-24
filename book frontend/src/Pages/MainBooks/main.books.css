@@ -1,0 +1,15 @@
+.main_books {
+  /* background-color: rgb(89, 165, 42); */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.main_books_container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+ 
+ 
+}

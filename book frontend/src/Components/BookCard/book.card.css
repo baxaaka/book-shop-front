@@ -1,0 +1,104 @@
+.book_card {
+  width: 267px;
+  height: inherit;
+}
+.book_card_container {
+  width: 90%;
+  margin: 0 auto;
+  outline: 2px solid #f0f0f0;
+  height: 540px;
+  border-radius: 14px;
+  background-color: #ffffff;
+ 
+}
+
+.book_card_container a {
+  text-decoration: none;
+}
+
+.book_card_img {
+  width: 100%;
+  height: 340px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 14px;
+  /* background-color: rebeccapurple; */
+}
+
+.book_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+.book_card_text .txt_title {
+  color: #11142d;
+  font-size: 20px;
+  height: 50px;
+}
+
+.book_card_text .txt_auhtor {
+  color: #6c5dd3;
+  font-size: 14px;
+}
+
+.book_card_text .txt_price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.book_card_text .txt_new_price {
+  color: #6c5dd3;
+  font-size: 28px;
+}
+
+.book_card_text .txt_old_price {
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
+.book_card_text button {
+  width: 229px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  border-radius: 14px;
+  gap: 5px;
+  background-color: #6c5dd3;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  margin: auto;
+
+  /* display: none; */
+}
+
+.book_card_btn {
+  /* background-color: red; */
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
+
+.book_card_btn button {
+  /* background-color: #4c4a5c; */
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  width: 40px;
+}

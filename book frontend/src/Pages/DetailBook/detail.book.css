@@ -1,0 +1,88 @@
+.detail_book {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.detail_book_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.detail_book_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail_book_card_img {
+  width: 398px;
+
+
+  height: inherit;
+ border-radius: 14px;
+ 
+}
+
+.detail_book_card_img img {
+  width: 100%;
+  height: 572px;
+ border-radius: 14px;
+
+}
+
+.detail_book_card_text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.detail_book_card_text .detail_txt {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+  
+  font-size: 16px;
+  padding: 10px;
+}
+
+.detail_book_card_text .detail_txt_title {
+  font-size: 24px;
+  color: #000;
+  font-weight: 900;
+}
+
+.detail_book_card_text .detail_txt_author {
+  font-size: 18px;
+}
+
+.detail_book_card_text .detail_txt_new_price {
+  font-size: 30px;
+  color: #6c5dd3;
+}
+
+.detail_about_book {
+  width: 100%;
+
+  margin: 50px auto;
+}
+
+.detail_about_book h3 {
+  font-size: 24px;
+}
+
+.detail_about_book p {
+  font-size: 16px;
+}
+
+@media (max-width: 1050px) {
+  .detail_book_card {
+    flex-direction: column;
+  }
+
+  .detail_book_card_text {
+    width: 100%;
+  }
+}
